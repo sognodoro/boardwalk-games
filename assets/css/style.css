@@ -23,7 +23,7 @@ color:var(--highlight-color);
 }
 /*grid visualisation CSS for testing*/
 
-.container,
+/*.container,
 .row {
     border: 2px solid black;
  }
@@ -31,3 +31,4 @@ color:var(--highlight-color);
     border:2px solid white;
     background-color:lightgray;
  }
+    */
