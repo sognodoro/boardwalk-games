@@ -20,7 +20,13 @@ body {
 h1,h2,h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    
+}
+h2, h3 {
     text-transform: uppercase;
+}
+h2 {
+    margin-bottom: 2rem;
 }
 .sub-heading-color { 
 color:var(--highlight-color);
@@ -36,11 +42,21 @@ color:var(--highlight-color);
 #header .lead {
     font-family: var(--secondary-font);
 }
+/* Services */
+#service .card-footer {
+    font-weight:bold;
+    color: var(--highlight-color);
+    background-color:transparent;
+
+}
+#services .card {
+    margin-bottom: 1.5rem;
+}
 .section {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-/*grid visualisation CSS for testing*/
+
 
 /*.container,
 .row {
@@ -49,5 +65,5 @@ color:var(--highlight-color);
  .col-12 {
     border:2px solid white;
     background-color:lightgray;
- }
-    */
+ }*/
+    
