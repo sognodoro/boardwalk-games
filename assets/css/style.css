@@ -42,6 +42,31 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color);
+    padding: 7px 25px;
+    color: var(--highlight-color)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color);
+    color: white
+}
+
 /* Navbar */
 
 #navbar {
@@ -76,6 +101,17 @@ h2 {
 #fav-games .card {
     border: none;
 }
+#events .table-hover tbody tr:hover {
+    background-color: var(--highlight-color-light);
+    color: white;
+}
+#events .bg-color {
+    font-weight: bold;
+    background-color: var(--highlight-color);
+    
+}
+
+
 
 /* Footer / contact */
 
@@ -102,15 +138,17 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
-    transition: color 0,3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+
 #contact .table-dark * {
-  background-color: transparent;
-   }
+    background-color: transparent;
+}
+
 
 /* grid visualisation CSS for testing */
 
